@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Clothing Stores</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+  </head>
+  <body>
+    <header class="top-navbar">
+      <div class="container">
+        
+        <ul class="top-navbar-list">
+           <li><a href="cart.html">Stores Cart</a></li>
+        </ul>
+      
+    </header>
+    <div class="container">
+
+      <h1 class="main-title">Clothing Stores Online Ordering<span>Welcome to our new online ordering system</span></h1>
+
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+
+      <div id="slideshow">
+         <div>
+          <h3>All New</h3>
+          <h4>Order you clothing store needs straight to you work place!</h4>
+         </div>
+         <div style="text-align: center;">
+                      
+           <img alt="Logo image" class="logo-image" src= "images/raf.jpg">
+           
+        </div>
+      </div>
+
+      <section>
+        <h2>Blues Collection</h2>
+
+        <div class="row">
+          <div class="panel">
+            <img alt="Product image" class="product-image" src="images/blue%20shirt.jpg">
+            <p>Blue Shirt. NSN 10000</p>
+        	  <button class="button" onclick="addCart('10000', 'Blue Shirt, NSN 10000', '1')">Add to order</button>
+          </div>
+          <div class ="panel">
+          	<img alt="Product image" class="product-image" src= "images/blue%20trousers.jpg">
+          	<p>Blue Trousers. NSN 10001</p>
+          	<button class="button" onclick="addCart('10001', 'Blue Trousers, NSN 10001', '1')">Add to order</button>
+          </div>
+          <div class ="panel">
+          	<img alt="Product image" class="product-image" src= "images/blue%20berret.jpg">
+          	<p>Berret. NSN 10002</p>
+          	<button class="button" onclick="addCart('10002', 'Blue Berret, NSN 10002', '1')">Add to order</button>
+          </div>
+          <div class ="panel">
+          	<img alt="Product image" class="product-image" src= "images/blue%20shoes.jpg">
+          	<p>No. 2 Shoes. NSN 10003</p>
+          	<button class="button" onclick="addCart('10003', 'No. 2 Shoes, NSN 10003', '1')">Add to order</button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>PCS Collection</h2>
+
+        <div class="row">
+          <div class="panel">
+          	<img alt="Product image" class="product-image" src= "images/greens%20shirt.jpg">
+          	<p>PCS Shirt. NSN 10004</p>
+          	<button class="button" onclick="addCart('10004', 'PCS Shirt, NSN 10004', '1')">Add to order</button>
+          </div>
+          <div class ="panel">
+          	<img alt="Product image" class="product-image" src="images/greens%20trousers.jpg">
+          	<p>PCS Trousers. NSN 10005</p>
+          	<button class="button" onclick="addCart('10005', 'PCS Trousers, NSN 10005', '1')">Add to order</button>
+          </div>
+          <div class ="panel">
+          	<img alt="Product image" class="product-image" src="images/greens%20helmet.jpg">
+          	<p>PCS Helmet. NSN 10006</p>
+          	<button class="button" onclick="addCart('10006', 'PCS helmet, NSN 10006', '1')">Add to order</button>
+          </div>
+          <div class ="panel">
+          	<img alt="Product image" class="product-image" src="images/greens%20shoes.png">
+          	<p>PCS Boots. NSN 10007</p>
+          	<button class="button" onclick="addCart('10007', 'PCS Boots, NSN 10007', '1')">Add to order</button>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <footer>
+      <div class="container">
+       
+        <!-- <div>&copy; Copyright 2020 Hayden Coe</div> -->
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="scripts/common.js"></script>
+  </body>
+</html>
